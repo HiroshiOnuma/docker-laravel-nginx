@@ -15,6 +15,7 @@ Laravel、Nginx、MySQL、Node が揃った開発環境です。
 - php: 8.2
 - nginx: 1.28
 - node: 22
+- laravel: 12.0
 
 
 
