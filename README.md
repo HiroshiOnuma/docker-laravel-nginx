@@ -4,7 +4,7 @@
 
 ## 概要
 
-Laravel、Nginx、MySQL、Node が揃った開発環境です。  
+Laravel、Nginx、MySQL、Node が揃った開発環境です。
 **docker compose up** を実行するだけで、Docker上にLaravel、Nginx、MySQL、Node が立ち上がります。
 
 
@@ -58,7 +58,14 @@ cd docker-laravel-nginx
 docker compose up -d
 ```
 
-4. Viteのホットリロード対応するため src/package.json を修正
+4. ブラウザで Laravel にアクセス
+[http://localhost:8080](http://localhost:8000)
+
+
+
+## Viteを使用する場合
+
+1. Vite のホットリロード対応するため、 src/package.json を以下のように修正
 ```
     "scripts": {
         "build": "vite build",
@@ -66,11 +73,9 @@ docker compose up -d
     }
 ```
 
-5. Node コンテナに入り、 Vite を起動する
+2. Node コンテナに入り、 Vite を起動する
 ```
 docker compose exec node bash
 npm run dev
 ```
 
-6. ブラウザで Laravel にアクセス
-[http://localhost:8080](https://localhost:8000)
