@@ -4,7 +4,7 @@
 
 ## 概要
 
-Laravel、Nginx、MySQL、Node が揃ったローカル開発環境です。  
+Laravel、Nginx、MySQL、Node が揃った開発環境です。  
 **docker compose up** を実行するだけで、Docker上にLaravel、Nginx、MySQL、Node が立ち上がります。
 
 
