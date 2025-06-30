@@ -60,7 +60,7 @@ docker compose up -d
 ```
 
 4. ブラウザで Laravel にアクセス
-[http://localhost:8080](http://localhost:8000)
+[http://localhost:8080](http://localhost:8080)
 
 
 
